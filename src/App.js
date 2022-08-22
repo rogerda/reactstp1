@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Buenas
+          Buenas a la Comisión 30080
         </a>
       </header>
     </div>
