@@ -1,14 +1,14 @@
 import React from 'react';
-import './styles.css';
-import { TiShoppingCart} from 'react-icons/fa';
+import {HiShoppingCart} from 'react-icons/hi';
 
-const CartWidjet = () => {
-return (
-<div>
-<TiShoppingCart/>
-</div>
-
-)
-
+const CartWidget = () => {
+  return (
+    <div style={{
+        width: '40px'
+    }}>
+        <HiShoppingCart color='blue'/>
+    </div>
+  )
 }
-export default CartWidjet;
+
+export default CartWidget
