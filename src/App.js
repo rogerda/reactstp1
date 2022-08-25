@@ -4,7 +4,6 @@ import NavBar  from './components/Navbar';
 import ItemListContainer from './containers/ItemListContainer';
 
 
-
 function App() {
 
  let numeroDeClase = 33;
