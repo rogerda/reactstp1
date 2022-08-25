@@ -1,24 +1,29 @@
-import logo from './logo.svg';
+
 import './App.css';
+import NavBar  from './components/Navbar';
+
 
 function App() {
+
+ let numeroDeClase = 33;
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hola Roger
+    <>
+      <NavBar/>
+      <div className="App">
+        {/* Estilos en línea */}
+        <p style={
+          {
+            color: 'blue',
+            paddingTop: '40px', 
+          }
+        }>
+          Bienvenidos a la clase {numeroDeClase}!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Buenas a la Comisión 30080
-        </a>
-      </header>
-    </div>
+        <hr/>
+        <input placeholder='Ingrese algún contenido'/>
+      </div>
+    </>
   );
 }
 
