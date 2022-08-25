@@ -1,6 +1,8 @@
 
 import './App.css';
 import NavBar  from './components/Navbar';
+import ItemListContainer from './containers/ItemListContainer';
+
 
 
 function App() {
@@ -21,7 +23,7 @@ function App() {
           Bienvenidos a la clase {numeroDeClase}!
         </p>
         <hr/>
-        <input placeholder='Ingrese algún contenido'/>
+        <ItemListContainer greeting={"Welcome to de Jungle"}/>
       </div>
     </>
   );
