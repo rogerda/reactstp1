@@ -20,6 +20,7 @@ const Item = ({product}) => {
   <div class="card-body">
     <h5 class="card-title">{product.title}</h5>
     <p class="card-text">${product.description}</p>
+    <h3><b>${product.price }</b></h3>
     <a class="btn btn-primary">Comprar</a>
   </div>
 </div>
